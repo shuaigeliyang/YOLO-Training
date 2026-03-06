@@ -1,0 +1,4 @@
+训练时间: 20251118_142520
+模型: YOLO + CBAM
+配置: {'data': './data.yaml', 'epochs': 300, 'imgsz': 640, 'batch': 16, 'device': 0, 'lr0': 0.01, 'lrf': 0.01, 'optimizer': 'AdamW', 'weight_decay': 0.0005, 'cos_lr': True, 'warmup_epochs': 3, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.1, 'patience': 50, 'save': True, 'plots': True, 'amp': True, 'verbose': True}
+结果: 训练完成
